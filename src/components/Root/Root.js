@@ -1,8 +1,8 @@
 import React from 'react'
 import App from '../App/App'
 
-const Root = () => {
+const Root = () => (
     <App />
-}
+)
 
 export default Root
