@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Books /> should match snapshots 1`] = `
-<h1>
-   Books 
-</h1>
+<div>
+  <h1>
+     Books 
+  </h1>
+  <Book />
+  <AddBook />
+</div>
 `;
