@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Root from './components/App/App'
+import Root from './components/Root/Root'
 import registerServiceWorker from './registerServiceWorker'
 
 ReactDOM.render(<Root />, document.getElementById('root'))
