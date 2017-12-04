@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import AddBook from './AddBook'
+import AddBook from 'components/AddBook/AddBook'
 
 describe('<AddBook />', () => {
     it ('should match snapshots', () => {

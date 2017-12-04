@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import Books from '../Books/Books'
+import Books from 'components/Books/Books'
 
 
 const App = () => (
-  <div>
+  <Fragment>
   <h1> hello world </h1>
   <Books/>
-  </div>
+  </Fragment>
 )
 
 export default App

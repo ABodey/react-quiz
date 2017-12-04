@@ -1,10 +1,10 @@
 import React from 'react'
-import { shallow } from 'enzyme'
-import App from './App'
+import { mount } from 'enzyme'
+import App from 'components/App/App'
 
 describe('<App />', () => {
-    it ('shoud match snapshots', () => {
-      const wrapper = shallow (<App />)
+    it ('should match snapshots', () => {
+      const wrapper = mount (<App />)
 
       expect(wrapper).toMatchSnapshot()
     })
