@@ -1,7 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<AddBook /> should match snapshots 1`] = `
-<h1>
-   AddBook 
-</h1>
+<form>
+  <input
+    name="title"
+    placeholder="Title"
+    required={true}
+    type="text"
+  />
+  <input
+    name="author"
+    placeholder="Author"
+    required={true}
+    type="text"
+  />
+  <button
+    type="submit"
+  >
+    Add Book
+  </button>
+</form>
 `;
