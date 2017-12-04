@@ -1,7 +1,10 @@
 import React from 'react'
 
-const Book = () => (
-  <h1> Book </h1>
+const Book = ({ 
+  title,
+  author,
+ }) => (
+  <li> {`${title} by ${author}`} </li>
 )
 
 export default Book
