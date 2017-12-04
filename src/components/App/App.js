@@ -4,7 +4,7 @@ import Books from 'components/Books/Books'
 
 const App = () => (
   <Fragment>
-  <h1> hello world </h1>
+  <h1> React Quiz </h1>
   <Books/>
   </Fragment>
 )
