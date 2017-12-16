@@ -1,4 +1,8 @@
 import React, { PureComponent } from 'react';
+import { v1 } from 'uuid'
+import Book from './Book';
+import AddBook from './AddBook';
+
 
 class Books extends PureComponent {
 state = {
@@ -25,6 +29,8 @@ state = {
     }
 
     render() {
+        const { books } = this.state
+
         return (
             <div >
                 {books.length ? (
