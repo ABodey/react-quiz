@@ -37,3 +37,4 @@ Books should have a title and an author.
 
 There are no testing requirements
 
+map state to props
