@@ -20,7 +20,7 @@ This quiz is designed to test your familiarity with basic React components.
 
 ## Overarching requirements
 * Do a fork and PR like a normal lab
-* Use create-react-app to bootstamp your react app
+* Use create-react-app to bootsrap your react app
 
 ## Requirements
 
